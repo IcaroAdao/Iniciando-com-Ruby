@@ -1,0 +1,29 @@
+
+Tablet:
+
+- modelo: String
+- marca: String
+- processador: String
+- voltagem: String
+- anoDeLancamento: String
+- ligado: Bool
+- wifiLigado: Bool
+
++ ligar()
++ desligar()
++ ligarWifi() 
++ desligarWifi()
+
+Boleto Bancário:
+
+- conta: Integer
+- pagadorFinal: String
+- beneficiario: String
+- dataDeVencimento: String
+- valorASerPago: Float
+- codigoDeBarras: Integer
+
++ retornarPagadorFinal()
++ retornarDataDeVencimento()
++ retornarCodigoDeBarras()
++ pagarBoleto(Float: valor, String: banco, String: nomeDoPagador)
